@@ -26,6 +26,12 @@ public class AddLowestPriceProductToCartTest extends BaseClass{
 		String SORTOPTION = fUtil.readDataFromExcelFile("Inventory", 4, 2);
 		String PRODUCTNAME = fUtil.readDataFromExcelFile("Inventory", 4, 3);
 
+		
+		
+		
+		
+		
+		
 		// Step 4: Click on product
 		InventoryPage ip = new InventoryPage(driver);
 		ip.clickOnLowestPricedProduct(driver, SORTOPTION, PRODUCTNAME);
